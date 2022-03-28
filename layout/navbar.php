@@ -16,7 +16,7 @@ require 'function.php';
     
     <div class="navbar">
         <div class="nav-logo">
-            <a href="index.php">Gepstore</a>
+            <a href="index.php">GilangStore</a>
         </div>
         <div class="nav-links">
             <ul>

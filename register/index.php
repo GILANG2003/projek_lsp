@@ -32,8 +32,8 @@ if(isset($_POST["register"])){
 <body>
     
     <div class="container">
-        <h2><i>Gepstore</i></h2>
-        <h3>create your account</h3>
+        <h2><i>GilangStore</i></h2>
+        <h3>Silahkan buat akun</h3>
 
         <form action="" method="POST">
             <label>Username</label>

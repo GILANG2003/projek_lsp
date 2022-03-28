@@ -10,8 +10,8 @@
 <body>
     
     <div class="container">
-        <h2><i>Gepstore</i></h2>
-        <h3>Login your account</h3>
+        <h2><i>GilangStore</i></h2>
+        <h3>Silahkan login</h3>
 
         <form action="process.php" method="POST">
             <label>Username</label>

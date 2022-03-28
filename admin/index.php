@@ -24,5 +24,5 @@ if($_SESSION["roles"] != "admin"){
 <?php include '../layout/sidebar.php' ?>
 
 <div class="main">
-    <h2>Selamat datang di Gepstore, Jual beli printer berkualitas</h2>
+    <h2>Selamat datang di GilangStore, Jual beli printer berkualitas</h2>
 </div>

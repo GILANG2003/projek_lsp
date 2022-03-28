@@ -64,12 +64,12 @@ $data = query("SELECT * FROM product WHERE id_produk = $id")[0];
             <label>Foto Produk</label>
             <input type="file" name="foto_produk" class="form-control" value="<?= $data['foto_produk']; ?>"> <br><br>
             
+            <label>Stok Produk</label>
+            <input type="text" name="stok_produk" class="form-control" value="<?= $data['stok_produk']; ?>"> <br><br>
+            
             <label>Deskripsi Produk</label> <br>
             <textarea name="deskripsi_produk" rows="10" class="form-control"><?= $data['deskripsi_produk']; ?></textarea> <br><br>
             
-            <label>Stok Produk</label>
-            <input type="text" name="stok_produk" class="form-control" value="<?= $data['stok_produk']; ?>"> <br><br>
-
             <button type="submit" name="submit">Edit Produk</button>
         </form>
     </div>

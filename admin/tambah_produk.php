@@ -59,11 +59,11 @@ if(isset($_POST["submit"])){
             <label>Foto Produk</label>
             <input type="file" name="foto_produk" class="form-control"> <br><br>
             
-            <label>Deskripsi Produk</label> <br>
-            <textarea name="deskripsi_produk" rows="10" class="form-control"></textarea> <br><br>
-            
             <label>Stok Produk</label>
             <input type="text" name="stok_produk" class="form-control"> <br><br>
+            
+            <label>Deskripsi Produk</label> <br>
+            <textarea name="deskripsi_produk" rows="10" class="form-control"></textarea> <br><br>
 
             <button type="submit" name="submit">Tambah Produk</button>
         </form>
