@@ -1,0 +1,166 @@
+body {
+    background: #ddd;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.sidebar a {
+    padding: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    display: block;
+}
+
+.sidebar a:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.main {
+    margin-left: 260px;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+table {
+    width: 100%;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px;
+    background: #fff;
+    margin-top: 30px;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px;
+}
+
+a.tambah{
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: blue;
+}
+
+a.edit{
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: green;
+}
+
+a.hapus{
+    padding: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    background: red;
+}
+
+.box {
+    height: 100%;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 20px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #4CAF50;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.detail-transaksi {
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    background: #ffffff;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.detail-transaksi .transaksi {
+    margin-left: 100px;
+}
+
+.detail-transaksi .transaksi button.proses {
+    padding: 15px;
+    background: yellow;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+}
+
+.detail-transaksi .transaksi button.dikirim {
+    padding: 15px;
+    background: green;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+}
+
+.detail-transaksi .transaksi button.ditolak {
+    padding: 15px;
+    background: red;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+}
+
+.detail-transaksi .transaksi button.ditolak {
+    padding: 15px;
+    background: red;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+}
+
+.detail-transaksi .aksi a.verif {
+    padding: 15px;
+    background: green;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.detail-transaksi .aksi a.reject {
+    padding: 15px;
+    background: red;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
